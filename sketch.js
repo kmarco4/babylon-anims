@@ -33,6 +33,10 @@ var createScene = function () {
 
     var newsphere = createSphere(0, 1, 0, 2);
     newsphere.material = hexMat('#ff0000');
+    var newsphere2 = createBox(0, 1, 0, 2);
+    newsphere2.material = hexMat('#ff0000');
+    var newsphere3 = createBox(0, 1, 0, 2);
+    newsphere3.material = hexMat('#ff0000');
 
     // Our built-in 'ground' shape.
     var ground = BABYLON.MeshBuilder.CreateGround("ground", {width: 6, height: 6}, scene);
